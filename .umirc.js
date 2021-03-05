@@ -13,20 +13,20 @@ export default {
   ],
   devtool: 'source-map',
 
-  // plugins: [
-  //   // ref: https://umijs.org/plugin/umi-plugin-react.html
-  //   ['umi-plugin-react', {
-  //     antd: false,
-  //     dva: false,
-  //     dynamicImport: false,
-  //     title: 'myumi2',
-  //     dll: false,
+  plugins: [
+    // ref: https://umijs.org/plugin/umi-plugin-react.html
+    ['umi-plugin-react', {
+      antd: false,
+      dva: false,
+      dynamicImport: false,
+      title: 'myumi2',
+      dll: false,
       
-  //     routes: {
-  //       exclude: [
-  //         /components\//,
-  //       ],
-  //     },
-  //   }],
-  // ],
+      routes: {
+        exclude: [
+          /components\//,
+        ],
+      },
+    }],
+  ],
 }
