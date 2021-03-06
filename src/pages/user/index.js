@@ -1,6 +1,6 @@
 import styles from './index.css';
 
-import * as sdk from '../services/sdk';
+import * as sdk from '../../services/sdk';
 import { useState, useEffect } from 'react';
 
 export default function() {
@@ -25,7 +25,7 @@ export default function() {
     <div className={styles.normal}>
       <div className={styles.welcome} />
       <div>
-        root
+        user
       </div>
       <div>
         fee：{fee}
